@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(
+        to top left, rgb(0, 155, 245), rgb(184, 184, 231), rgb(146, 129, 245)
+    );
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-menu li a:hover {
+    color: #555;
+}
+
+
+.livro {
+    width: 30%;
+    float: left;
+    margin: 1%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+.livro img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+.livro h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.livro p {
+    font-size: 1em;
+    color: #555;
+    overflow: hidden;
+    max-height: 70px; /* Defina a altura máxima desejada */
+    transition: max-height 0.5s ease;
+    margin-bottom: 20px; /* Adiciona margem inferior para espaço entre o texto e o botão */
+}
+
+.ver-mais {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0; /* Coloca o botão no rodapé do bloco do livro */
+    left: 0; /* Alinha o botão à esquerda do bloco do livro */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: block; /* Remove espaços extras abaixo da imagem */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.desc{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
